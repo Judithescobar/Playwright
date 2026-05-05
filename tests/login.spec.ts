@@ -22,7 +22,7 @@ test('login', async({page}) => {
     expect(actualDate).toEqual('2023-12-31')
     expect(actualAmount).toEqual('500')
     expect(actualDescription).toEqual('Description testing')
-    //await page.pause()
+   
 
 });
 
